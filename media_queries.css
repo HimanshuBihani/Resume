@@ -1,0 +1,116 @@
+/* animation */
+
+@keyframes changeshape{
+
+from{
+	border-radius: 0%;
+}
+
+to{
+	border-radius: 50%;
+}
+
+}
+
+@keyframes changeshape2{
+
+from{
+	border-radius: 0%;
+}
+
+to{
+	border-radius: 20%;
+}
+
+}
+
+@keyframes rotate{
+
+from{
+	transform: rotate(0deg);
+}
+
+to{
+	transform: rotate(360deg);
+}
+
+}
+
+
+@keyframes reducesize{
+
+from{
+	width: 65px;
+}
+
+to{
+	width: 32px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 600px){
+	
+#name-social-container{
+	margin-top: 8vh;
+}
+
+
+	#timeline-divider-work {
+		left: 5%;
+	}
+
+	#timeline-divider-edu {
+		left: 5%;
+	}
+
+	.timeline-box{
+		left: 12% !important;
+		width: 90%;
+	}
+
+	.timeline-box::after {
+    left: -10% !important;
+	}
+	
+
+	#contact-container{
+	display: block;
+}
+
+
+#contact-form{
+	margin: center;
+}
+
+#contact-form-container{
+	width: 90%;
+}
+
+
+#my-details-container{
+	width: 65%;
+	margin: auto;
+}
+
+
+
+}
+

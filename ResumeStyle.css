@@ -1,0 +1,697 @@
+body{
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+
+
+/* Body Header */
+
+#body-header{
+	height: 65vh;
+	background-image: url(images/OfficeBackground2.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.95;
+	background-attachment: fixed;
+	padding-top: 1.2rem;
+}
+
+
+
+
+/* Horizontal Lists */
+
+.horizontal-list{
+	list-style: none;
+	padding-left:0px;
+	margin: 0px;
+/*	text-align: center;*/
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 8px 8px 0px 8px;
+	font-weight: 400;
+	font-size: 1.3rem;
+}
+
+.horizontal-list li a{
+	color: black;
+	text-decoration: none;
+	transition: color 0.5s, border-bottom 0.5s;
+}
+
+.horizontal-list li a:hover{
+	color: Red;
+	border-bottom: 2px solid darkred;
+	font-size: 20px;
+
+}
+
+header nav ul.horizontal-list li{
+	background-color: ghostwhite;
+	opacity: 0.5;
+	border-radius: 30%;
+	padding: 4px;
+}
+
+
+
+
+/*  Name and Social Icons  */
+
+#name-social-container{
+	margin-top: 20vh;
+}
+
+
+
+.social-icons li a i{
+	padding: 10px;
+	color: lightskyblue;
+	font-size: 1.5rem;	
+	border-radius: 50%;
+}
+.social-icons li a i:hover{
+	padding: 10px;
+	color: lightseagreen;
+	transition: 0.5s;
+	box-shadow: 0px 0px 6px 4px lightgoldenrodyellow;
+}
+
+
+
+/*Section*/
+
+
+section{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+section:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+section:nth-child(2n + 1){
+	background-color: white;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	margin: 10px auto;
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+}
+
+
+
+
+
+/*Personal Information*/
+
+#my-name{
+	/*margin-top: 200px;
+	font-size: 75px;
+	color: red;
+	transition: .5s;*/
+	font-size: 4.5rem;
+	letter-spacing: 0.1rem;
+	color: red;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	transition: 1s ease-in-out;
+}
+
+#my-name:hover{
+	color: royalblue;
+	transform: scale(1.5) translate(100px);
+	margin-left: -25%;
+/*	background-image: url(images/OfficeBackground.jpg);
+	height: 65vh;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.9;
+	background-attachment: fixed;
+	margin: -43px;*/
+}
+
+
+
+
+.text-center{
+	text-align: center;
+}
+
+
+/*  About Section */
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#myimage{
+	height: 12rem;
+	width:12rem;
+	margin: auto;
+	margin-top: -13vh;
+}
+#myimage img{
+	height:100%;
+	width: 100%;
+/*	border-radius: 50%;*/
+	border: 3px solid white;
+	box-shadow: 1px 1px 10px 2px slategrey;
+	animation: changeshape 1s ease-in-out infinite alternate;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+
+/*Skils*/
+
+.skills-display{
+	width: 70%;
+/*	border: 2px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+.skill-progress{
+	width: 8rem;
+	height: 2rem;
+	background-color: lightgrey;
+	border: 2px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	margin: 20px 25px 50px 25px;
+    box-shadow: 1px 1px 5px 2px #989882;
+	position: relative;
+}
+
+
+.skill-name span{
+	color: white;
+	font-size: 1.2rem;
+/*	margin-left: 10px;*/
+	vertical-align: 3px;
+}
+
+
+/*Skills text*/
+.DSA span{
+	position: absolute;
+	top: 5px;
+	left: 46px;
+}
+
+.Font-End span{
+	position: absolute;
+	top: 5px;
+	left: 24px;
+}
+
+.Java span{
+	position: absolute;
+	top: 5px;
+	left: 41px;
+}
+
+.Back-End span{
+	position: absolute;
+	top: 5px;
+	left: 26px;
+}
+
+.React span{
+	position: absolute;
+	top: 5px;
+	left: 39px;
+}
+
+.SQL span{
+	position: absolute;
+	top: 5px;
+	left: 45px;
+
+}.CorelDraw span{
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+
+.Photoshop span{
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+
+.Oher-Skills span{
+	color: blue;
+	text-decoration: underline;
+	position: absolute;
+	top: 5px;
+	left: 15px;
+}
+
+
+
+/*lightbox*/
+#lightbox{
+	height: 0;
+	width: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	transition: all 2s ease-in-out;
+	z-index: 3;
+}
+
+#lightbox:target{
+	height: 30%;
+	width: 20%;
+	background-color: #f7f7f7;
+	top: 35%;
+	left: 40%;
+	box-shadow: 0 0 30px grey;
+}
+
+
+
+
+
+/*Skills Color*/
+
+
+.m-blue {
+    color: #2857a4;
+}
+
+
+.mb-blue{
+	background-color: #2857a4;
+}
+
+.mb-orange{
+	background-color: #ec4d1c;
+}
+
+.mb-purple{
+	background-color: #93738c;
+}
+
+.mb-red{
+	background-color: #fcaca6;
+}
+
+
+
+/*Percentage classes*/
+
+.Sixty-percent{
+	width: 60%;
+	height: inherit;
+}
+
+.Sixty-five-percent{
+	width: 65%;
+	height: inherit;
+}
+
+.Seventy-percent{
+	width: 70%;
+	height: inherit;
+}
+
+.Seventy-five-percent{
+	width: 75%;
+	height: inherit;
+}
+
+.Eighty-percent{
+	width: 80%;
+	height: inherit;
+}
+
+.Eighty-five-percent{
+	width: 85%;
+	height: inherit;
+}
+
+.Ninety-percent{
+	width: 90%;
+	height: inherit;
+}
+
+.Ninety-five-percent{
+	width: 95%;
+	height: inherit;
+}
+
+.hundred-percent{	
+	width: 100%;
+	height: inherit;
+}
+
+
+
+/*portfolio*/
+
+
+#portfolio-container{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 50px;
+	margin-bottom: 20px;
+	justify-content: space-around;
+}
+
+.portfolio-image-container{
+	max-width: 300px;
+	overflow: hidden;
+	margin: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.portfolio-image-container img{
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio-details{
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	color: transparent;
+	text-align: center;
+	padding: 10px;
+}
+
+.portfolio-image-container:hover{
+	box-shadow: 0 0 30px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details{
+	background-color: #80808078;
+	color: white;
+}
+
+
+
+
+/* Timeline for Work experence and education both are same*/
+
+.timeline{
+	position: relative;
+	width: 75%;
+	margin-bottom: 50px;
+	/*height: auto;
+	border: 2px solid black;*/
+}
+
+.timeline-box{
+	position: 5px;
+	width: 40%;	
+	min-height: 150px;
+	position: relative;
+	left: 5%;
+	text-align: right;
+	height: auto;
+	border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n){
+	left: 53%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 65px;
+    overflow: hidden;
+    animation-name: changeshape2, rotate, reducesize;
+    animation-duration: 3s, 3s, 3s;
+    animation-iteration-count: infinite, infinite, infinite;
+    animation-direction: alternate, alternate, alternate;
+}
+
+.timeline-logo > img {
+    width: 100%;
+    align-items: center;
+}
+
+.experience-designation{
+	font-size: 1.4rem;
+	margin-left: 100px;
+}
+
+.experience-company-name{
+	margin: 5px 0 0 100px;
+	color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.experience-duration{
+	margin-top: 15px;
+	color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;    
+}
+
+.experience-description{
+    font-size: 1rem;
+    padding: 2px;
+    color: grey;
+    line-height: 20px;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+#niosimage{
+	width: 90px;
+	height: 120px;
+}
+
+
+
+/* for airplane*/
+
+
+#timeline-divider-work {
+    position: absolute;
+    width: 0;
+    top: 3%;
+    left: 49%;
+    border: 1px dashed #0096fa6b;
+    height: 67%;
+}
+
+
+#timeline-divider-edu {
+    position: absolute;
+    width: 0;
+    top: 3%;
+    left: 49%;
+    border: 1px dashed #0096fa6b;
+    height: 76%;
+}
+
+
+.timeline-traveller-work{
+	position: sticky;
+	top: 10%;
+	transform: rotate(90deg);
+	margin-top: -35px;
+	display: block;
+	color: #2857a4;
+	z-index: 2;
+}
+
+.timeline-traveller-edu{
+	position: sticky;
+	transform: rotate(90deg);
+	top: 10%;
+	margin-top: -30px;
+	display: block;
+	color: #2857a4;
+	z-index: 2;
+
+
+}
+
+/*for airplane node*/
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 5%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.3%;
+}
+.timeline-box:nth-child(2n)::after {
+    left: -12%;
+}
+
+
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+/* Contact Form */
+
+#contact{
+	background-color: #0abcf9;
+	background-image: linear-gradient(50deg, red 0%, blue 74%);
+	color: white;
+	padding-bottom: 40px;
+}
+
+#contact h1 span{
+	color: white;
+}
+
+#contact-form{
+	margin-left: 20%;
+}
+
+#contact-container{
+	display: flex;
+}
+
+#contact-form-container{
+	width: 50%;
+}
+
+#contact-form input, textarea{
+	max-width: 90%;
+	margin: 15px;
+	padding: 4px 10px;
+	border: 0px solid white;
+	border-bottom: 2px solid white;
+	color: #d9dcdd;
+	background: transparent;
+	width: 90%;
+	line-height: 1.6;
+	font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"]{
+	background: transparent;
+	font-size: 0.95rem;
+	border: 2px solid white;
+	margin-top: 5%;
+	margin-left: 35%;
+	border-radius: 5px;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1;
+	padding: 0.8em;
+	text-transform: uppercase;
+}
+
+
+#contact-form button:hover{
+	background: linear-gradient(45deg, #ffb5b59e, #bab5ff9e);
+	color: cyan;
+}
+
+
+#my-details-container{
+	width: 35%;
+	margin-left: 6%;
+}
+
+#my-details-container h3{
+	color: white;
+	font-weight: 550;
+	font-size: 1.2rem;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1rem;
+ }
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+
+
